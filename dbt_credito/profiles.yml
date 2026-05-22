@@ -1,0 +1,10 @@
+dbt_credito:
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: credito-pipeline-br
+      dataset: credito
+      location: us-east1
+      threads: 1
+  target: dev

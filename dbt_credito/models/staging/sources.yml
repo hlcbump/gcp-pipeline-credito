@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: credito
+    database: credito-pipeline-br
+    schema: credito
+    tables:
+      - name: raw_spread
+      - name: raw_inadimplencia
+      - name: raw_concessoes
